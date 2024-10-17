@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "se3nawjZAS8=",
+  "dgSpecHash": "lTSlZV4vqQg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\adriano-rinaldi\\source\\repos\\SistemaSimplesComAutenticacaoJwt\\backend\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adriano-rinaldi\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\adriano-rinaldi\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

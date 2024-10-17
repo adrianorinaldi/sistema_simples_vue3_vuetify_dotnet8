@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -17,7 +17,6 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "RootPolicy")]
         public ActionResult<List<User>> GetAll()
         {
             return _userService.GetAll();
@@ -35,6 +34,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = "RootPolicy")]
         public ActionResult<User> Create(User user)
         {
             _userService.Create(user);

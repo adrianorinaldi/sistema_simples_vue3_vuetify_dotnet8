@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import index from '@/pages/index.vue';
 import login from '@/pages/login.vue';
-import user from '@/pages/User.vue';
+import user from '@/pages/user.vue';
 import register_user from '@/pages/register_user.vue';
 
 // Simulação da função para verificar se o usuário está autenticado
