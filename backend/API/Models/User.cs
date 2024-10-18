@@ -23,6 +23,6 @@ namespace API.Models
         public string? Role { get; set; }
 
         [BsonElement("status")]
-        public string? Status { get; set; }
+        public string? Status { get; set; } = "ativo";
     }
 }

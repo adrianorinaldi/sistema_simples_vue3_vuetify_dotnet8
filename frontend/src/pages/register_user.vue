@@ -39,7 +39,7 @@
         ></v-select>
         <v-row>
           <v-col>
-            <v-btn class="mt-4" color="error" block> VOLTAR </v-btn>
+            <v-btn class="mt-4" color="error" block to="/user"> VOLTAR </v-btn>
           </v-col>
           <v-col>
             <v-btn class="mt-4" color="success" block type="submit">
@@ -49,10 +49,23 @@
         </v-row>
       </v-form>
     </v-card>
+    <div>
+      <v-snackbar v-model="snackbar" :timeout="timeout">
+        {{ text }}
+
+        <template v-slot:actions>
+          <v-btn color="blue" variant="text" @click="snackbar = false">
+            Close
+          </v-btn>
+        </template>
+      </v-snackbar>
+    </div>
   </v-container>
 </template>
 
 <script>
+import api from "@/plugins/api";
+
 export default {
   data() {
     return {
@@ -65,10 +78,45 @@ export default {
       ],
       visible: false,
       roleSelect: ["root", "admin", "user"],
+      snackbar: false,
+      text: null,
+      timeout: 2000,
     };
   },
+  created() {
+    const id = this.$route.params.id;
+    if (id) {
+      this.isEditMode = true;
+      this.findById(id);
+    }
+  },
   methods: {
-    async register() {},
+    async register() {
+      const { valid } = await this.$refs.form.validate();
+      if (valid) {
+        try {
+          const response = await api.post("/user", this.dados);
+          this.text = "Cadastrado com sucesso!";
+          this.snackbar = true;
+          this.$router.push("/user");
+        } catch (error) {
+          this.text = "Não foi possível cadastrar!";
+          this.snackbar = true;
+        }
+      } else {
+        this.text = "Preencha os campos corretamente!";
+        this.snackbar = true;
+      }
+    },
+    async findById(id) {
+        try {
+          const response = await api.get(`/user/${id}`);
+          this.dados = response.data;
+        } catch (error) {
+          this.text = "Não foi possível buscar os dados!";
+          this.snackbar = true;
+        }
+    },
   },
 };
 </script>

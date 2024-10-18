@@ -1573,11 +1573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adria\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\adriano-rinaldi\\source\\repos\\SistemaSimplesComAutenticacaoJwt\\backend\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\adria\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adria\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\obj\\",
+      "projectPath": "C:\\Users\\adriano-rinaldi\\source\\repos\\SistemaSimplesComAutenticacaoJwt\\backend\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\adriano-rinaldi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adriano-rinaldi\\source\\repos\\SistemaSimplesComAutenticacaoJwt\\backend\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",

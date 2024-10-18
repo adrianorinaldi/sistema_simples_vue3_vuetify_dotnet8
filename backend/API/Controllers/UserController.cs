@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -35,6 +35,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = "RootPolicy")]
         public ActionResult<User> Create(User user)
         {
             _userService.Create(user);
@@ -57,6 +58,7 @@ namespace API.Controllers
         }
 
         [HttpDelete("{id:length(24)}")]
+        [Authorize(Policy = "RootPolicy")]
         public IActionResult Delete(string id)
         {
             var user = _userService.GetById(id);
