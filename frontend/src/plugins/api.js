@@ -21,15 +21,25 @@ api.interceptors.request.use(config => {
   return Promise.reject(error);
 });
 
-// Também é possível interceptar as respostas
 api.interceptors.response.use(response => {
   return response;
 }, error => {
-  // Gerenciamento de erros globais, como redirecionamento ao login se o token estiver expirado
-  if (error.response && error.response.status === 401) {
-    // Exemplo: redirecionar para o login
-    //window.location = '/login';
+  console.log("rror.response", error.response)
+  if (error.response) {
+    const status = error.response.status;
+    if (status >= 500) {
+      // Erros do servidor
+      alert('Ocorreu um erro no servidor. Tente novamente mais tarde.');
+    } else if (status == 401) {
+      alert('Sessão expirada. Faça login novamente...');
+      localStorage.removeItem('auth_token');
+      window.location = "/login";
+    }
+  } else if (error.request) {
+    // Quando a requisição foi feita mas não houve resposta
+    alert('Sem resposta do servidor. Verifique sua conexão com a internet.');
   }
+
   return Promise.reject(error);
 });
 

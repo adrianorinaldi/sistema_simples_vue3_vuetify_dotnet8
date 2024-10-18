@@ -84,7 +84,11 @@ export default {
     };
   },
   created() {
-    console.log("dados=", this.$route.params.dados)
+    const id = this.$route.params.id;
+    if (id) {
+      this.isEditMode = true;
+      this.findById(id);
+    }
   },
   methods: {
     async register() {
@@ -96,13 +100,22 @@ export default {
           this.snackbar = true;
           this.$router.push("/user");
         } catch (error) {
-            this.text = "Não foi possível cadastrar!";
-            this.snackbar = true;
+          this.text = "Não foi possível cadastrar!";
+          this.snackbar = true;
         }
       } else {
         this.text = "Preencha os campos corretamente!";
         this.snackbar = true;
       }
+    },
+    async findById(id) {
+        try {
+          const response = await api.get(`/user/${id}`);
+          this.dados = response.data;
+        } catch (error) {
+          this.text = "Não foi possível buscar os dados!";
+          this.snackbar = true;
+        }
     },
   },
 };

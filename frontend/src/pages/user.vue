@@ -159,12 +159,8 @@ export default {
   },
   methods: {
     async findAll() {
-      console.log("1")
       try {
-          console.log("2")
           const response = await api.get("/user");
-          console.log("3")
-          console.log("response.data", response.data)
           this.dados = response.data;
         } catch (error) {
             this.text = "Não foi possível buscar!";
@@ -172,84 +168,19 @@ export default {
         }
     },
     edit(item) {
-      this.$router.push( { name: "register_user", params: { dados: item } } );
-    },
-    /*edit(item) {
-      this.$router.push({ name: "register_category", params: { id: item.id } });
+      this.$router.push({ name: "register_user", params: { id: item.id } });
     },
     async deleteItem(item) {
-      try {
-        const response = await axios.delete(`/category/${item.id}`);
-        this.alteracao_valida = true;
-        this.mensagem = "Excluído com Sucesso!";
-        this.findAll();
-        setTimeout(() => {
-          this.alteracao_valida = false;
-        }, this.$tempoDaMensagem);
-      } catch (error) {
-        console.error(error);
-        this.alteracao_invalida = true;
-        this.mensagem = "Não foi possivel excluir.";
-      }
+        try {
+          const response = await api.delete(`/user/${item.id}`);
+          this.text = "Excluído com sucesso!";
+          this.snackbar = true;
+          await this.findAll();
+        } catch (error) {
+            this.text = "Não foi possível excluir!";
+            this.snackbar = true;
+        }
     },
-    async validateAlterTicket(id) {
-      const response = await axios.get(
-        `/Ticket/exists_category/${id}`
-      );
-      return response.data;
-    },
-    async validateAlterTicketIntern(id) {
-      const response = await axios.get(
-        `/TicketIntern/exists_category/${id}`
-      );
-      return response.data;
-    },
-    async inactivate(item) {
-      try {
-        const response = await axios.patch(
-          `/Category/status/${item.id}`,
-          "inativo",
-          {
-            headers: {
-              "Content-Type": "application/json",
-            },
-          }
-        );
-        this.mensagem = "Categoria inativada com sucesso.";
-        this.alteracao_valida = true;
-        this.findAll();
-        setTimeout(() => {
-          this.alteracao_valida = false;
-        }, this.$tempoDaMensagem);
-      } catch (error) {
-        console.error("Erro ao inativar categoria:", error);
-        this.mensagem = "Erro ao inativar categoria.";
-        this.alteracao_valida = true;
-      }
-    },
-    async activate(item) {
-      try {
-        const response = await axios.patch(
-          `/Category/status/${item.id}`,
-          "ativo",
-          {
-            headers: {
-              "Content-Type": "application/json",
-            },
-          }
-        );
-        this.mensagem = "Categoria ativada com sucesso.";
-        this.alteracao_valida = true;
-        this.findAll();
-        setTimeout(() => {
-          this.alteracao_valida = false;
-        }, this.$tempoDaMensagem);
-      } catch (error) {
-        console.error("Erro ao ativar categoria:", error);
-        this.mensagem = "Erro ao ativar categoria.";
-        this.alteracao_valida = true;
-      }
-    },*/
   },
 };
 </script>

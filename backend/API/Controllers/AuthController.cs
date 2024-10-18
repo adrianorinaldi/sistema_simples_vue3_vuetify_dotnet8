@@ -28,11 +28,14 @@ namespace API.Controllers
             var user = _userCollection.Find(u => u.Email == login.Email && u.Password == login.Password).FirstOrDefault();
 
             if (user == null)
-                return Unauthorized();
+            {
+                return BadRequest("E-mail ou Senha inválidos.");
+            }
 
-            // Verifica se o usuário está ativo
             if (user.Status != "ativo")
+            {
                 return Forbid();
+            }
 
             var token = GenerateJwtToken(user);
 

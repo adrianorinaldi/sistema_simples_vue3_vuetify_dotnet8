@@ -51,7 +51,7 @@
       </v-form>
     </v-card>
     <div>
-      <v-snackbar v-model="snackbar" :timeout="timeout">
+      <v-snackbar v-model="snackbar">
         {{ text }}
 
         <template v-slot:actions>
@@ -79,7 +79,6 @@ export default {
     ],
     snackbar: false,
     text: null,
-    timeout: 2000,
   }),
   methods: {
     async login() {
@@ -90,7 +89,7 @@ export default {
           localStorage.setItem("auth_token", response.data.token);
           this.$router.push("/");
         } catch (error) {
-          if (error.response && error.response.status === 401) {
+          if (error.response && error.response.status === 400) {
             // Exemplo: redirecionar para o login
             //window.location = '/login';
             this.text = "E-mail ou Senha incorretos!";

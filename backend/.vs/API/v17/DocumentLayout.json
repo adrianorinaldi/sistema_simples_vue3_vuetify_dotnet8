@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|c:\\users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F46C7896-BBED-418E-8D1F-FBBC4B005AE6}|API\\API.csproj|solutionrelative:api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,33 +42,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
               "ToolTip": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\appsettings.json",
               "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-17T00:58:50.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAAoAAAAUAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAB8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T00:57:05.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\Models\\User.cs",
               "RelativeDocumentMoniker": "API\\Models\\User.cs",
@@ -80,19 +76,7 @@
               "RelativeToolTip": "API\\Models\\User.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T00:42:12.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "API.http",
-              "DocumentMoniker": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.http",
-              "RelativeDocumentMoniker": "API\\API.http",
-              "ToolTip": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.http",
-              "RelativeToolTip": "API\\API.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-10-08T00:43:16.999Z",
+              "WhenOpened": "2024-10-15T00:42:12.37Z",
               "EditorCaption": ""
             },
             {
@@ -103,21 +87,23 @@
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAAAFIAAABLAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:33:21.434Z"
+              "WhenOpened": "2024-10-05T14:33:21.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\Controllers\\UserController.cs",
               "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA0wCQAAAAqAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAADwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:39:27.415Z"
+              "WhenOpened": "2024-10-05T14:39:27.415Z",
+              "EditorCaption": ""
             }
           ]
         }

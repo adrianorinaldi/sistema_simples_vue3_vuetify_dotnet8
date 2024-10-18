@@ -17,6 +17,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
+        [Authorize(Policy = "RootPolicy")]
         public ActionResult<List<User>> GetAll()
         {
             return _userService.GetAll();
@@ -57,6 +58,7 @@ namespace API.Controllers
         }
 
         [HttpDelete("{id:length(24)}")]
+        [Authorize(Policy = "RootPolicy")]
         public IActionResult Delete(string id)
         {
             var user = _userService.GetById(id);
