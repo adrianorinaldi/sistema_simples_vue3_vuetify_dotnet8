@@ -109,7 +109,7 @@ export default {
       }
     },
     async findById(id) {
-        try {
+      try {
           const response = await api.get(`/user/${id}`);
           this.dados = response.data;
         } catch (error) {

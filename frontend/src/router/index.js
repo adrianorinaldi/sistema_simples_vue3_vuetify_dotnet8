@@ -22,10 +22,12 @@ const routes = [
     children: [
       {
         path: "/user",
+        name: 'user',
         component: user,
       },
       {
-        path: "/register_user",
+        path: '/register_user/:id?',
+        name: 'register_user',
         component: register_user,
       },
     ],
