@@ -3,9 +3,8 @@
     <v-img
       class="mx-auto my-6"
       max-width="228"
-      src="https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-v3-slim-text-light.svg"
+      src="../assets/logo.png"
     ></v-img>
-
     <v-card
       class="mx-auto pa-12 pb-8"
       elevation="8"
@@ -53,7 +52,6 @@
     <div>
       <v-snackbar v-model="snackbar">
         {{ text }}
-
         <template v-slot:actions>
           <v-btn color="blue" variant="text" @click="snackbar = false">
             Close
@@ -66,7 +64,6 @@
 
 <script>
 import api from "@/plugins/api.js";
-
 export default {
   data: () => ({
     visible: false,

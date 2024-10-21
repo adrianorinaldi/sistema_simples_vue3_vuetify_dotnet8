@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.csproj": {}
+    "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\frontend\\backend\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.csproj": {
+    "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\frontend\\backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\frontend\\backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\API.csproj",
+        "projectPath": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\frontend\\backend\\API\\API.csproj",
         "packagesPath": "C:\\Users\\adriano-rinaldi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\backend\\API\\obj\\",
+        "outputPath": "C:\\Users\\adriano-rinaldi\\source\\repos\\sistema_simples_vue3_vuetify_dotnet8\\frontend\\backend\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adriano-rinaldi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
